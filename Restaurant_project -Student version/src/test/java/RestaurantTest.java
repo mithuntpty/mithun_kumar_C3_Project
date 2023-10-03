@@ -108,7 +108,6 @@ class RestaurantTest {
                 ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-}
 
     @Test
     public void item_added_to_menu_should_return_the_total_price() {
@@ -128,3 +127,6 @@ class RestaurantTest {
         int price = restaurant.getSelectedItemPrice();
         assertEquals(0, price);
     }
+}
+
+
